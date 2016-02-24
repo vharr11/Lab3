@@ -41,4 +41,4 @@ var overlays = {
 		"Temperature":temperature
 };
 
-L.control.layers(baseLayers, overlays).addTo(map);
+L.control.layers(baseLayers, overlays).addTo(map)
