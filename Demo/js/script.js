@@ -30,9 +30,7 @@ var temperature = L.tileLayer.wms("http://nowcoast.noaa.gov/arcgis/services/nowc
 
 // Layers used for basemap. Create an object with Layers for each basemap
 // baseLayers name should match your tile layer (base map)
-var baseLayers = {
-    "Map": map,
-    };
+var baseLayers = { };
 
 // we have three layers that contain WMS layers.
 var overlays = {
